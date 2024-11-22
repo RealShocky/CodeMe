@@ -71,7 +71,7 @@ Examples:
 
 ## 🔧 Project Structure
 
-      ```bash
+      
       codeme/
       ├── src/                  # Source code
       │   ├── main.py          # Entry point
