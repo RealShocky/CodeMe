@@ -38,9 +38,9 @@ A powerful voice-controlled coding assistant that helps you write, manage, and d
    pip install -r requirements.txt
 
 3. **Configuration**
-Copy .env.example to .env
-Add your API keys to .env
-Configure config.json for custom settings
+- Copy .env.example to .env
+- Add your API keys to .env
+- Configure config.json for custom settings
 
 4. **Run**
    ```bash
