@@ -43,7 +43,8 @@ Add your API keys to .env
 Configure config.json for custom settings
 
 4. **Run**
-python src/main.py
+   ```bash
+   python src/main.py
 
 💬 Commands
 Project Commands
@@ -70,19 +71,20 @@ Examples:
 
 🔧 Project Structure
 
-codeme/
-├── src/                  # Source code
-│   ├── main.py          # Entry point
-│   ├── voice_assistant.py# Core assistant
-│   ├── project_manager.py# Project management
-│   ├── code_manager.py  # Code operations
-│   ├── test_manager.py  # Testing functionality
-│   └── utils/           # Utilities
-├── tests/               # Test files
-├── projects/            # User projects
-├── backups/            # Project backups
-├── templates/          # Code templates
-└── config.json         # Configuration
+   
+   codeme/
+   ├── src/                  # Source code
+   │   ├── main.py          # Entry point
+   │   ├── voice_assistant.py# Core assistant
+   │   ├── project_manager.py# Project management
+   │   ├── code_manager.py  # Code operations
+   │   ├── test_manager.py  # Testing functionality
+   │   └── utils/           # Utilities
+   ├── tests/               # Test files
+   ├── projects/            # User projects
+   ├── backups/            # Project backups
+   ├── templates/          # Code templates
+   └── config.json         # Configuration
 
 🔍 Troubleshooting
 Voice Recognition Issues
