@@ -48,18 +48,18 @@ Configure config.json for custom settings
 
 ## 💬 Commands
 Project Commands
-create project [name] [description]: Create a new coding project
-load project [name]: Switch to an existing project
-list projects: Show all available projects
-delete project [name]: Remove a project (creates backup first)
-backup project: Create a backup of the current project
-show project files: List all files in the current project
+- create project [name] [description]: Create a new coding project
+- load project [name]: Switch to an existing project
+- list projects: Show all available projects
+- delete project [name]: Remove a project (creates backup first)
+- backup project: Create a backup of the current project
+- show project files: List all files in the current project
 
 ## File Commands
-create file [name] in src/tests/docs: Create a new file in specified directory
-edit file [name]: Modify an existing file
-show file [name]: Display file contents
-run tests for current project: Execute project tests
+- create file [name] in src/tests/docs: Create a new file in specified directory
+- edit file [name]: Modify an existing file
+- show file [name]: Display file contents
+- run tests for current project: Execute project tests
 
 ## Voice Commands
 Start with "hey assistant" followed by your command
