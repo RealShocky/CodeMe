@@ -1,0 +1,11 @@
+anthropic>=0.3.0
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.5
+numpy>=1.21.0
+pytest>=7.0.0
+docker>=6.1.0
+autopep8>=2.0.0
+python-dotenv>=1.0.0
+PyAudio>=0.2.13
+coverage>=7.3.2
+aioconsole>=0.6.1

@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "test1": {
+      "name": "test1",
+      "description": "'a test project'",
+      "created_at": "2024-11-21T16:32:35.686835",
+      "last_accessed": "2024-11-21T16:32:35.686835",
+      "files": [
+        "src\\src\\app.py"
+      ],
+      "path": "C:\\Projects\\Codeme\\projects\\test1"
+    },
+    "test2": {
+      "name": "test2",
+      "description": "and create a python app that will use open ai api to create full detailed books. add 10 features to this app.",
+      "created_at": "2024-11-21T16:19:36.057169",
+      "last_accessed": "2024-11-21T16:19:36.057169",
+      "files": [
+        "src\\src\\main.py"
+      ],
+      "path": "C:\\Projects\\Codeme\\projects\\test2"
+    }
+  },
+  "last_accessed": "test1"
+}
