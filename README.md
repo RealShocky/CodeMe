@@ -62,74 +62,73 @@ Project Commands
 - run tests for current project: Execute project tests
 
 ## Voice Commands
-Start with "hey assistant" followed by your command
+- Start with "hey assistant" followed by your command
 
 Examples:
-"hey assistant, create a new web app project"
-"hey assistant, add a login function to app.py"
-"hey assistant, run all tests"
+- "hey assistant, create a new web app project"
+- "hey assistant, add a login function to app.py"
+- "hey assistant, run all tests"
 
-🔧 Project Structure
+## 🔧 Project Structure
 
-   
-   codeme/
-   ├── src/                  # Source code
-   │   ├── main.py          # Entry point
-   │   ├── voice_assistant.py# Core assistant
-   │   ├── project_manager.py# Project management
-   │   ├── code_manager.py  # Code operations
-   │   ├── test_manager.py  # Testing functionality
-   │   └── utils/           # Utilities
-   ├── tests/               # Test files
-   ├── projects/            # User projects
-   ├── backups/            # Project backups
-   ├── templates/          # Code templates
-   └── config.json         # Configuration
+      ```bash
+      codeme/
+      ├── src/                  # Source code
+      │   ├── main.py          # Entry point
+      │   ├── voice_assistant.py# Core assistant
+      │   ├── project_manager.py# Project management
+      │   ├── code_manager.py  # Code operations
+      │   ├── test_manager.py  # Testing functionality
+      │   └── utils/           # Utilities
+      ├── tests/               # Test files
+      ├── projects/            # User projects
+      ├── backups/            # Project backups
+      ├── templates/          # Code templates
+      └── config.json         # Configuration
 
-🔍 Troubleshooting
-Voice Recognition Issues
-Ensure your microphone is properly connected
-Check microphone permissions
-Try speaking clearly and at a moderate pace
+## 🔍 Troubleshooting
+## Voice Recognition Issues
+- Ensure your microphone is properly connected
+- Check microphone permissions
+- Try speaking clearly and at a moderate pace
 
-API Connection Problems
-Verify API keys in .env
-Check internet connection
-Ensure API services are available
+## API Connection Problems
+- Verify API keys in .env
+- Check internet connection
+- Ensure API services are available
 
-Project Loading Issues
-Confirm project exists in projects directory
-Check file permissions
-Verify project structure is intact
+## Project Loading Issues
+- Confirm project exists in projects directory
+- Check file permissions
+- Verify project structure is intact
 
-🛠️ Development Setup
+## 🛠️ Development Setup
 Environment Setup
 
-python -m venv venv
+      ```bash
+      python -m venv venv
+      source venv/bin/activate  # or venv\Scripts\activate on Windows
+      pip install -r requirements.txt
 
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-pip install -r requirements.txt
-
-IDE Configuration
+## IDE Configuration
 Recommended: VSCode with Python extension
 Enable linting (pylint)
 Configure test discovery
 
-Testing
+## Testing
 python -m pytest tests/
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the repository
 Create a feature branch
 Commit your changes
 Push to the branch
 Create a Pull Request
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 OpenAI for GPT integration
 Anthropic for Claude integration
 Speech recognition libraries
