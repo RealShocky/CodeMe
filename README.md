@@ -111,26 +111,26 @@ Environment Setup
       pip install -r requirements.txt
 
 ## IDE Configuration
-Recommended: VSCode with Python extension
-Enable linting (pylint)
-Configure test discovery
+- Recommended: VSCode with Python extension
+- Enable linting (pylint)
+- Configure test discovery
 
 ## Testing
-python -m pytest tests/
+- python -m pytest tests/
 
 ## 🤝 Contributing
-Fork the repository
-Create a feature branch
-Commit your changes
-Push to the branch
-Create a Pull Request
+- Fork the repository
+- Create a feature branch
+- Commit your changes
+- Push to the branch
+- Create a Pull Request
 
 ## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
-OpenAI for GPT integration
-Anthropic for Claude integration
-Speech recognition libraries
-All contributors and users
-Made with ❤️ by the Vibration Robotics team
+- OpenAI for GPT integration
+- Anthropic for Claude integration
+- Speech recognition libraries
+- All contributors and users
+- Made with ❤️ by the Vibration Robotics team
